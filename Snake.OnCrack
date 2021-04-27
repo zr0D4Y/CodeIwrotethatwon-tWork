@@ -1,10 +1,10 @@
-<canvas id="gc" width="400" height="400"></canvas>
+<canvas id="gc" width="600" height="600"></canvas>
 <script>
 window.onload=function() {
     canv=document.getElementById("gc");
     ctx=canv.getContext("2d");
     document.addEventListener("keydown",keyPush);
-    setInterval(game,1000/15);
+    setInterval(game,1500/15);
 }
 px=py=10;
 gs=tc=20;
